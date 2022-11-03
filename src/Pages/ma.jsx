@@ -10,16 +10,24 @@ const Ma = () => {
       <div>
         <h1 className="text-5xl font-bold ">Measured Actifity</h1>
       </div>
-      <div class="flex m-6 justify-start text-center text-gray-800 " >
+      <div class="flex m-6 justify-start text-center text-gray-800 ">
         {/* <button className="a p-2 bg-gray-50 hover:bg-gray-500 rounded-lg" onClick={'border bottom'}>Approve <a href="" className="m-3">0</a></button>
         <button className="a p-2 bg-gray-50 hover:bg-gray-500 rounded-lg">Active <a href="" className="m-3">0</a></button>
         <button className="a p-2 bg-gray-50 hover:bg-gray-500 rounded-lg">Overdue <a href="" className="m-3">0</a></button>
         <button className="a p-2 bg-gray-50 hover:bg-gray-500 rounded-lg">Complete <a href="" className="m-3">0</a></button>
          */}
-        <diva>Approve <a className="">0</a></diva>
-        <diva>Active <a className="">0</a></diva>
-        <diva>Overdue <a className="">0</a></diva>
-        <diva>Complete <a className="">0</a></diva>
+        <diva>
+          Approve <a className="">0</a>
+        </diva>
+        <diva>
+          Active <a className="">0</a>
+        </diva>
+        <diva>
+          Overdue <a className="">0</a>
+        </diva>
+        <diva>
+          Complete <a className="">0</a>
+        </diva>
       </div>
       <div className="text-white grid grid-cols-12 space-x-3 my-5">
         <label htmlFor="" className="col-span-3">
@@ -64,6 +72,14 @@ const Ma = () => {
           </div>
         ))}
       </div> */}
+      <div className="flex justify-items-end  p-4 grid grid-cols-8 gap-4 border-2 rounded-lg">
+        <div class=""></div>
+        <div class="justify-start">Achievement</div>
+        <div class="col-span-2">Measured Activity</div>
+        <div class="...">User</div>
+        <div class="">Result Value</div>
+        <div class="...">Last Update</div>
+      </div>
 
       <div>
         {a.map((e) => (
