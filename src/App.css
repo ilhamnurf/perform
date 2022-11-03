@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+diva{
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: #a0a0a0;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+diva:after{
+  position: absolute;
+  content: "";
+  background-color: #282c34;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+diva:hover{
+  color: #282c34;
+}
+
+diva:hover:after{
+  width: 100%;
+  
+}
